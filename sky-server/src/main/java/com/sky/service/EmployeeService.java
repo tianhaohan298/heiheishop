@@ -18,4 +18,6 @@ public interface EmployeeService {
     void saveEmployee(EmployeeDTO employeeDTO);
 
     PageResult pageQuery(EmployeePageQueryDTO employeePageQueryDTO);
+
+    void startOrStop(Integer status, long id);
 }
